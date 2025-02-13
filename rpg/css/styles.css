@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+#game {
+    display: flex;
+    justify-content: space-around;
+}
+
+#characters div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+	background-color: white;
+}
+
+#characters div:hover {
+    color: white;
+    background-color: black; /* Color de fondo al hacer hover */
+    cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+#characters img {
+    width: 80px; /* Tamaño de la imagen */
+    height: 80px;
+    border-radius: 50%; /* Hacemos la imagen circular */
+    margin-bottom: 10px;
+}
+
+#characters,
+#actions,
+#log {
+    background-color: purple;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 5px;
+}
+
+#action-buttons button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#action-buttons button:hover {
+    background-color: #0056b3;
+}
+
+#character-buttons button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #ff00d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#character-buttons button:hover {
+    background-color: red;
+}
+
+#log-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#log-list li {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
